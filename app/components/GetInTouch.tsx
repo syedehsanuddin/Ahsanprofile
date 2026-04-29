@@ -1,0 +1,14 @@
+import FadeIn from "./FadeIn"
+
+const GetInTouch = () => {
+  return (
+    <section className="py-6 px-6 max-w-2xl mx-auto mb-10">
+      <FadeIn>
+        <h2 className="font-serif text-2xl mb-4">GET IN TOUCH</h2>
+        <p className="text-base text-muted-foreground">Connect with me on <a href="https://www.linkedin.com/in/ahsanud/" className="underline text-accent-foreground"> LinkedIn</a> or shoot an <a href = "mailto:syed.ahsan934@gmail.com" className="underline text-accent-foreground">email</a>.</p>
+      </FadeIn>
+    </section>
+  )
+}
+
+export default GetInTouch;
