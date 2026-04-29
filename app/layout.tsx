@@ -39,44 +39,45 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agniva Sengupta | Full Stack Engineer",
+  metadataBase: new URL("https://ahsanuddin.netlify.app"),
+  title: "Ahsan Uddin | Software Test Engineer",
   description:
-    "Full Stack Engineer & Open Source Aspirant. Building with Next.js, Go, and exploring Federated Learning.",
+    "Software Test Engineer focused on manual and automation testing across UI, API, load, security, and product quality workflows.",
   keywords: [
-    "Agniva Sengupta",
-    "Full Stack Developer",
-    "MERN Stack",
-    "Golang",
-    "Next.js Portfolio",
-    "IIEST Shibpur",
-    "Software Engineer",
+    "Ahsan Uddin",
+    "Software Test Engineer",
+    "QA Automation",
+    "Playwright",
+    "UI Testing",
+    "API Testing",
+    "Performance Testing",
   ],
-  authors: [{ name: "Agniva Sengupta" }],
-  creator: "Agniva Sengupta",
+  authors: [{ name: "Ahsan Uddin" }],
+  creator: "Ahsan Uddin",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://agniva.dev",
-    title: "Agniva Sengupta | Full Stack Engineer",
+    url: "https://ahsanuddin.netlify.app",
+    title: "Ahsan Uddin | Software Test Engineer",
     description:
-      "Full Stack Engineer & Open Source Aspirant. Building with Next.js, Go, and exploring Federated Learning.",
-    siteName: "Agniva Sengupta",
+      "Software Test Engineer focused on manual and automation testing across UI, API, load, security, and product quality workflows.",
+    siteName: "Ahsan Uddin",
     images: [
       {
-        url: "/preview.png", // You'll need to add an image file to your public folder
+        url: "/preview.png",
         width: 1200,
         height: 630,
-        alt: "Agniva Sengupta Portfolio",
+        alt: "Ahsan Uddin Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Agniva Sengupta | Full Stack Engineer",
+    title: "Ahsan Uddin | Software Test Engineer",
     description:
-      "Building scalable web apps and exploring distributed systems.",
+      "Building reliable software quality through UI, API, load, and security testing.",
     images: ["/preview.png"],
-    creator: "@zenyashi",
+    creator: "@ahsanuddin",
   },
   icons: {
     icon: "/favicon.ico",
